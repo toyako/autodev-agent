@@ -1,0 +1,76 @@
+# 依赖目录
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 运行时数据
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# 测试覆盖率
+coverage/
+.nyc_output
+
+# 构建输出
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# 环境变量
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志
+logs/
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
+tmp/
+temp/
+
+# 包管理器
+package-lock.json
+yarn.lock
+
+# 文档
+*.pdf
+*.docx
+*.pptx
+
+# 媒体文件
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+
+# 图片（除了项目必要的）
+*.png
+*.jpg
+*.jpeg
+*.gif
+!examples/**/*.png
+!examples/**/*.jpg
+
+# 参赛材料（单独管理）
+lobster-competition/
